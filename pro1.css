@@ -1,0 +1,338 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+     overflow-x: hidden; 
+}
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+}
+.con .logo img{
+    height: 80px;
+    width: 100px;
+}
+.con .menu ul{
+    display: flex;
+}
+.con .menu ul li a{
+    text-decoration: none;
+    list-style: none;
+  margin-right: 50px;
+  color: white;
+  text-transform: uppercase;
+}
+.con .menu ul li :hover{                                        
+        background: #fff;
+        transition: all 0.5s ease-in;
+        color:#0a0a0a;
+    }
+.con .menu ul li a:hover {
+        color: #0a0a0a;
+        transition: all 0.5s ease-in;
+        background-color: #fff;
+    }
+
+ .con .menubar i{
+    color: white ;
+    display: none;
+} 
+.con1{
+    display: flex;
+    background-color: #dadada;
+    justify-content: space-between;
+    
+}
+.cona{
+    display: flex;
+    flex-direction: column;
+    
+}
+.cona h1{
+    margin: 50px 0px 0px 30px;
+   
+}
+.cona p{
+    align-items: center;
+    margin: 30px 0px 0px 30px;
+} 
+.conb{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+ .conb .img1 img{
+    
+     margin: 20px 50px 0px 0px;
+    height: 250px;
+    width: 250px;
+    border-radius: 150px;
+}
+.con2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 0px 0px;
+}
+.con2 .me{
+    font-size: 30px;
+} 
+
+.con2 .RL{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+     align-items: center;
+   
+}
+.RL .dp{
+    
+    border-color:black;
+    border-style: solid;
+    height: 350px;
+    background-color: #dadada;
+}
+.dp h3{
+ margin: 20px 0px 0px 30px;
+}
+.dp p{
+ margin: 20px 5px 0px 30px;
+}
+.RL .ssc{
+    border-color:black;
+    border-style: solid;
+    height: 350px;
+    margin-left: 10px;
+    background-color: #dadada;   
+}
+.ssc h3{
+    margin: 20px 0px 0px 30px;
+   }
+.ssc p{
+       margin: 20px 5px 0px 30px;
+   }
+.con3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.con3 .myskill{
+    margin-top: 10px;
+    font-size: 30px;
+}
+.mainimg {
+    display: flex;
+  padding-right: 60px;
+ }
+ 
+.mainimg .img1 img{
+   height: 200px;
+   width: 350px;
+   margin: 20px 0px 0px 10px;
+ 
+}
+.mainimg .img2 img{
+    height: 200px;
+    width: 200px;
+    margin: 20px 0px 0px -80px;  
+}
+.mainimg .img3 img{
+    height: 200px;
+    width: 180px;
+    margin: 20px 0px 0px 0px;
+}
+.mainimg .img3{
+    display: flex;
+    flex-direction:column;
+}
+.mainimg1{
+    display: flex;
+
+}
+.mainimg1 .img4 img{
+    height: 200px;
+    width: 230px;
+}
+
+.mainimg1 .img5 img{
+    height: 200px;
+    width: 200px;
+}
+.con4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dadada;
+   width: 100%;
+}
+.con4 .ec{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 500px;
+}
+.ec .email i{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ .ec .email i .mail{
+     padding: 0px 0px 0px 10px; 
+} 
+.con4 .contact{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.ec .call i{
+    display: flex;
+   align-items: center;
+   margin-top: 20px;
+}
+.ec .call i .no{
+    padding-left: 10px;
+}
+
+@media screen and (max-width:725px) {
+    .con{
+        position: relative;
+     } 
+     .menu{
+        top: 100%;
+        width: 100%;
+        position: absolute;
+        background-color: #0a0a0a;
+        
+     }
+     .menu ul{
+        flex-direction: column;
+        width: 100%;
+     }
+     .menu ul li{
+        padding: 20px 10px;
+     }
+     .con .menubar i{
+        display: block;
+     }
+    
+     .con1{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        top: 100%;
+     }
+     .cona{
+        width: 100%;
+     }
+      .cona h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+      .cona p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     
+        
+     }
+    
+    
+     .conb {
+       top: 100%;
+       width: 100%;
+       justify-content: center;
+      align-items: center;
+     }
+     .conb .img1 img{
+      margin: 0px 0px 0px 10px;
+     }
+     .con2 .RL{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+     }
+     .con2 .RL .ssc{
+        margin-top: 10px;
+        margin-right: 8px;
+     }
+   .con3 .mainimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+   }
+   .con3 .mainimg1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+   }
+    .mainimg .img1 img{
+        margin-left: 10px;
+    }
+    .mainimg .img2 img{
+        margin-left: 20px;
+    }
+    .mainimg .img3 img{
+    margin-left: 10px;
+   }
+   .con4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   }
+   .con4 .ec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px 0px 0px;
+   }
+   .ec .email i{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   }
+    .con4 .email i .mail{
+    padding: 0px 0px 0px 10px;
+   } 
+   .con4 .contact{
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+   
+  }
+   .ec .call i{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+    .con4 .call i .no{
+    padding-left: 10px;
+ }  
+
+}
